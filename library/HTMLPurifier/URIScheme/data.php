@@ -17,6 +17,7 @@ class HTMLPurifier_URIScheme_data extends HTMLPurifier_URIScheme
         // you better write validation code for other types if you
         // decide to allow them
         'image/jpeg' => true,
+        'image/jpg' => true,
         'image/gif' => true,
         'image/png' => true,
     );
